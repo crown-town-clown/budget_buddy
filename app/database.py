@@ -12,3 +12,5 @@ database_url = os.getenv("DATABASE_URL")
 engine = create_engine(f"{database_url}")
 
 #with Session(engine) as session:
+
+#implement user registration / login
